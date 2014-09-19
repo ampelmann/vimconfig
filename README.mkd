@@ -1,3 +1,5 @@
+This is a fork from the fabulous [thoas](http://github.com/thoas/)
+
 Daily inspiration:
 
 * [remiprev/vimfiles](http://github.com/remiprev/vimfiles)
