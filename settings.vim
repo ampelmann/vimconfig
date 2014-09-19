@@ -121,17 +121,3 @@ set wildignore+=*.o,*.obj,*.pyc,.git,.svn
 " Fix my <Backspace> key (in Mac OS X Terminal) {{{
 " set t_kb=fixdel
 " }}}
-
-" Maximize GVim window at startup {{{
-if has("gui_running")
-  set lines=9999 columns=9999
-else
-  " This is console Vim.
-  if exists("+lines")
-    set lines=50
-  endif
-  if exists("+columns")
-    set columns=100
-  endif
-endif
-" }}}
